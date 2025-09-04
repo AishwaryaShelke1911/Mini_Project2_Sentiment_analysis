@@ -72,6 +72,14 @@ GloVe
 
 Pre-trained vectors (glove.6B.100d) loaded via Gensim
 
+## Pre-trained Embeddings
+This project uses [GloVe embeddings](https://nlp.stanford.edu/projects/glove/).  
+The file `glove.6B.100d.txt` (~350 MB) is **not included in this repository** due to size limits.  
+
+To download it automatically, just run the notebook/script and it will fetch the embeddings from Stanford’s site.  
+Alternatively, you can manually download from [GloVe official page](https://nlp.stanford.edu/projects/glove/).
+
+
 🤖 Model
 
 Sentence vectors created by averaging word embeddings
